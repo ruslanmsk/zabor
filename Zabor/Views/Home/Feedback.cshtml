@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="content">
+
+
+    <h1>Обратная связь</h1>
+
+
+    <p>Оформить заказ, либо задать все интересующие вас вопросы вы можете отправив нам письмо по электронной почте. Для этого вам необходимо заполнить форму обратной связи.</p>
+    <p>Поля, отмеченные звездочкой (*) обязательны для заполнения.</p>
+    <div id="respond">
+
+        <form action="#" method="post">
+            <p>
+                <input type="text" name="name" id="name" value="" size="22">
+                <label for="name"><small>Ваше имя<sup>*</sup></small></label>
+            </p>
+            <p>
+                <input type="text" name="mail" id="mail" value="" size="22">
+                <label for="email"><small>e-mail</small></label>
+            </p>
+            <p>
+                <input type="text" name="phone" id="phone" value="" size="22">
+                <label for="phone"><small>Телефон<sup>*</sup></small></label>
+            </p>
+
+            <label for="comment"><small>Сообщение<sup>*</sup></small></label>
+            <p>
+                <textarea name="message" id="comment" cols="50" rows="10"></textarea>
+            
+            </p>
+            <p>
+            </p><table>
+                <tbody><tr>
+                    <td width="50%">  <img src="/capture.php" alt=""></td>
+                    <td> <label for="name"><small>Секретный код<sup>*</sup></small></label></td>
+                </tr> 
+                <tr>        
+                    <td> <input type="text" name="code" id="name" value="" size="13"></td>
+                    <td> <label for="name"><small>Повторить<sup>*</sup></small></label></td>
+                </tr>     
+                </tbody></table>
+            <p></p>
+            <p>
+                <input name="send" type="submit" id="submit" value="отправить">
+                &nbsp;
+                <input name="reset" type="reset" id="reset" tabindex="5" value="очистить">
+            </p>
+
+        </form>
+    </div>
+
+
+
+
+</div>

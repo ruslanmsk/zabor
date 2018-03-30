@@ -1,17 +1,78 @@
 ﻿@{
     ViewData["Title"] = "Contact";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
 
-<address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+
+<div class="content">
+
+
+    <h1>Контакты</h1>
+
+
+    <p>
+        Для связи с нами используйте, расположенные ниже, контактные<br>
+        данные:
+    </p>
+    <p>Адрес: г. Брянск, ул. Речная, 35</p>
+    <p>Телефон:<span style="font-size:21px; color:#373737;"> +7 (910) 330-49-55</span></p>
+    <p>Телефон:<span style="font-size: 21px; color: rgb(55, 55, 55);">&nbsp;+7 (910) 330-99-58</span></p>
+    <p>Телефон:<span style="font-size: 21px; color: rgb(55, 55, 55);">&nbsp;+7 (953) 297-69-10</span></p>
+    <p>E-mail: <a href="/back/">bryanskzabor@gmail.com</a></p>
+    <p>&nbsp;</p>
+    <p>
+        <script src="http://api-maps.yandex.ru/1.1/?key=AFKMi00BAAAAqYTYSwIAKfuJuCSVWXMbbLiXwIsOoc7ey-kAAAAAAAAAAACRCDJGwiyyKzCmVnGtQGj8M_jiXQ==&amp;modules=pmap&amp;wizard=constructor" type="text/javascript"></script><link rel="stylesheet" href="https://api-maps.yandex.ru/1.1/_YMaps.css?v=1.1.21-58">
+        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/1.1/_YMaps.js?v=1.1.21-58"></script>
+        <script type="text/javascript">
+    YMaps.jQuery(window).load(function () {
+        var map = new YMaps.Map(YMaps.jQuery("#YMapsID-2332")[0]);
+        map.setCenter(new YMaps.GeoPoint(34.400942,53.265637), 15, YMaps.MapType.MAP);
+        map.addControl(new YMaps.Zoom());
+        map.addControl(new YMaps.ToolBar());
+        YMaps.MapType.PMAP.getName = function () { return "Народная"; };
+        map.addControl(new YMaps.TypeControl([
+            YMaps.MapType.MAP,
+            YMaps.MapType.SATELLITE,
+            YMaps.MapType.HYBRID,
+            YMaps.MapType.PMAP
+        ], [0, 1, 2, 3]));
+
+        YMaps.Styles.add("constructor#pmlbmPlacemark", {
+            iconStyle : {
+                href : "http://api-maps.yandex.ru/i/0.3/placemarks/pmlbm.png",
+                size : new YMaps.Point(28,29),
+                offset: new YMaps.Point(-8,-27)
+            }
+        });
+
+
+        YMaps.Styles.add("constructor#FF3732c85Polyline", {
+            lineStyle : {
+                strokeColor : "FF3732c8",
+                strokeWidth : 5
+            }
+        });
+       map.addOverlay(createObject("Placemark", new YMaps.GeoPoint(34.39708,53.267413), "constructor#pmlbmPlacemark", "ул. Речная, 35<br/>Производство и установка декоративных железобетонных заборов"));
+       map.addOverlay(createObject("Polyline", [new YMaps.GeoPoint(34.405449,53.262241),new YMaps.GeoPoint(34.403346,53.262781),new YMaps.GeoPoint(34.399054,53.265637),new YMaps.GeoPoint(34.397767,53.267335)], "constructor#FF3732c85Polyline", "Путь от жд вокзала \"Брянск 1\" в сторону Бежицкого района "));
+
+        function createObject (type, point, style, description) {
+            var allowObjects = ["Placemark", "Polyline", "Polygon"],
+                index = YMaps.jQuery.inArray( type, allowObjects),
+                constructor = allowObjects[(index == -1) ? 0 : index];
+                description = description || "";
+
+            var object = new YMaps[constructor](point, {style: style, hasBalloon : !!description});
+            object.description = description;
+
+            return object;
+        }
+    });
+        </script>
+    </p>
+    <div id="YMapsID-2332" style="width:524px;height:423px" class="YMaps YMaps-cursor-grab">&nbsp;<div class="YMaps-layer-container" style="z-index: 1;"><div class="YMaps-map-type-layer-container"><div class="YMaps-layer" style="z-index: 5; left: 0px; top: 0px;"><div style="z-index:6;" class="YMaps-tile-container"><img src="https://vec03.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19513&amp;y=10660&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: -314px; top: -289px;"><img src="https://vec01.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19514&amp;y=10660&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: -58px; top: -289px;"><img src="https://vec03.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19515&amp;y=10660&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: 198px; top: -289px;"><img src="https://vec01.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19516&amp;y=10660&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: 454px; top: -289px;"><img src="https://vec04.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19513&amp;y=10661&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: -314px; top: -33px;"><img src="https://vec02.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19514&amp;y=10661&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: -58px; top: -33px;"><img src="https://vec04.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19515&amp;y=10661&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: 198px; top: -33px;"><img src="https://vec02.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19516&amp;y=10661&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: 454px; top: -33px;"><img src="https://vec03.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19513&amp;y=10662&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: -314px; top: 223px;"><img src="https://vec01.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19514&amp;y=10662&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: -58px; top: 223px;"><img src="https://vec03.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19515&amp;y=10662&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: 198px; top: 223px;"><img src="https://vec01.maps.yandex.net/tiles?l=map&amp;v=18.03.26-0&amp;x=19516&amp;y=10662&amp;z=15&amp;lang=ru_RU" style="position: absolute; width: 256px; height: 256px; left: 454px; top: 223px;"></div></div></div><div class="YMaps-layer YMaps-common-object-layer" style="z-index: 50; left: 0px; top: 0px;"><div class="YMaps-placemark YMaps-Default YMaps-cursor-pointer" style="z-index: 110; left: 164.012px; top: 115.973px;"><img src="http://api-maps.yandex.ru/i/0.3/placemarks/pmlbm.png" style="width: 28px; height: 29px;"></div><div class="" style="position: absolute; width: 0px; height: 0px; z-index: 0; left: -524px; top: -423px;"><svg zoomAndPan="disable" viewBox="-524 -423 1572 1269" width="1572" height="1269"><g><polyline stroke-linecap="round" stroke-linejoin="round" name="polyline" zIndex="2" fill="none" stroke="#FF3732" stroke-opacity="0.7843137254901961" stroke-width="5px" points="367.0234375,343.98046875 318.01953125,322.99609375 218.0078125,212 188.01953125,146.00390625" class=" YMaps-cursor-pointer"></polyline></g></svg></div></div></div><div style="background-color: transparent !important;border: none !important;float: none !important;z-index: 1001 !important;position: absolute !important;overflow: undefined !important;padding: 0 !important;display: block !important;margin-top: 0 !important;margin-right: 0 !important;margin-bottom: 0 !important;margin-left: 0 !important;height: 20px !important;width: 51px !important;" class="YMaps-logo"><a href="http://maps.yandex.ru?origin=jsapi&amp;ll=34.40094195306302,53.26563699373811&amp;z=15&amp;l=map" target="_blank" class="YMaps-logo-link" style="background-color: transparent !important;border: none !important;float: none !important;z-index: 1001 !important;position: absolute !important;overflow: undefined !important;padding: 0 !important;display: block !important;margin-top: 0 !important;margin-right: 0 !important;margin-bottom: 0 !important;margin-left: 0 !important;height: 20px !important;width: 51px !important;"><i style="background-color: transparent !important;border: none !important;float: none !important;z-index: 1001 !important;position: absolute !important;overflow: undefined !important;padding: 0 !important;margin-top: 0 !important;margin-right: 0 !important;margin-bottom: 0 !important;margin-left: 0 !important;height: 106px !important;width: 56px !important;"></i></a></div><div class="YMaps-copyrights" style="background-color: transparent !important; border: none !important; float: none !important; z-index: 1001 !important; position: absolute !important; overflow: visible !important; padding: 0px !important; display: block !important; margin: 0px !important; height: auto !important; width: auto !important; color: rgb(68, 68, 68);"><span style="background-color: transparent !important; border: none !important; float: none !important; z-index: 1001 !important; position: static !important; padding: 0px !important; display: inline !important; font-family: Arial, sans-serif !important; font-size: 10px !important; text-indent: 0px !important; text-align: left !important; white-space: nowrap !important; line-height: normal !important; text-decoration: none !important; text-size-adjust: none !important; margin: 0px !important; height: auto !important; width: auto !important; color: rgb(68, 68, 68);">© Яндекс&nbsp;–&nbsp;</span><a href="http://maps.yandex.ru/agreement.xml" target="_blank" style="background-color: transparent !important; border: none !important; float: none !important; z-index: 1001 !important; position: static !important; padding: 0px !important; display: inline !important; font-family: Arial, sans-serif !important; font-size: 10px !important; text-indent: 0px !important; text-align: left !important; white-space: nowrap !important; line-height: normal !important; text-decoration: underline !important; text-size-adjust: none !important; margin: 0px !important; height: auto !important; width: auto !important; color: rgb(68, 68, 68);">Условия использования</a></div><div class="YMaps-slider" style="z-index: 1000; left: 5px; top: 75px; height: 190px;"><div class="YMaps-slider-content"><a class="YMaps-slider-minus" href="javascript:void(0)"><i class="YMaps-slider-btn"><i></i></i></a><div class="YMaps-slider-scale" style="height: 140px; padding-bottom: 0px;"><i class="YMaps-slider-grab" type="button" style="margin-top: 104px;"><i></i><input type="button"></i><i class="YMaps-slider-marks" style="height: 140px;"><i></i></i><div class="YMaps-slider-tips" style="visibility: hidden; height: 140px;"><a href="javascript:void(0)" class="YMaps-button-tip YMaps-cursor-pointer" style="top: 8px;"><i class="YMaps-button-tip-l"><i></i></i><i class="YMaps-button-tip-r"><i></i></i><b class="YMaps-button-tip-container"><i class="YMaps-button-tip-text">мир</i><i class="YMaps-button-tip-m"></i></b></a><a href="javascript:void(0)" class="YMaps-button-tip YMaps-cursor-pointer" style="top: 29px;"><i class="YMaps-button-tip-l"><i></i></i><i class="YMaps-button-tip-r"><i></i></i><b class="YMaps-button-tip-container"><i class="YMaps-button-tip-text">страна</i><i class="YMaps-button-tip-m"></i></b></a><a href="javascript:void(0)" class="YMaps-button-tip YMaps-cursor-pointer" style="top: 57px;"><i class="YMaps-button-tip-l"><i></i></i><i class="YMaps-button-tip-r"><i></i></i><b class="YMaps-button-tip-container"><i class="YMaps-button-tip-text">город</i><i class="YMaps-button-tip-m"></i></b></a><a href="javascript:void(0)" class="YMaps-button-tip YMaps-cursor-pointer" style="top: 85px;"><i class="YMaps-button-tip-l"><i></i></i><i class="YMaps-button-tip-r"><i></i></i><b class="YMaps-button-tip-container"><i class="YMaps-button-tip-text">улица</i><i class="YMaps-button-tip-m"></i></b></a><a href="javascript:void(0)" class="YMaps-button-tip YMaps-cursor-pointer" style="top: 106px;"><i class="YMaps-button-tip-l"><i></i></i><i class="YMaps-button-tip-r"><i></i></i><b class="YMaps-button-tip-container"><i class="YMaps-button-tip-text">дом</i><i class="YMaps-button-tip-m"></i></b></a></div></div><a class="YMaps-slider-plus" href="javascript:void(0)"><i class="YMaps-slider-btn"><i></i></i></a></div></div><div class="YMaps-buttons" style="z-index: 999; left: 5px; top: 5px;"><div class="YMaps-button YMaps-button_active" title="Переместить карту"><i class="YMaps-button-c YMaps-button-l"><i></i></i><i class="YMaps-button-m" style="width: 19px;"><i></i><img class="YMaps-icon YMaps-icon_move" alt="Переместить карту" title="Переместить карту" src="https://api-maps.yandex.ru/i/0.4/zero.gif"></i><i class="YMaps-button-c YMaps-button-r"><i></i></i></div><div class="YMaps-button" title="Увеличить"><i class="YMaps-button-c YMaps-button-l"><i></i></i><i class="YMaps-button-m YMaps-cursor-pointer" style="width: 19px;"><i></i><img class="YMaps-icon YMaps-icon_magnifier" alt="Увеличить" title="Увеличить" src="https://api-maps.yandex.ru/i/0.4/zero.gif"></i><i class="YMaps-button-c YMaps-button-r"><i></i></i></div><div class="YMaps-button" title="Измерение расстояний на карте"><i class="YMaps-button-c YMaps-button-l"><i></i></i><i class="YMaps-button-m YMaps-cursor-pointer" style="width: 19px;"><i></i><img class="YMaps-icon YMaps-icon_ruler" alt="Измерение расстояний на карте" title="Измерение расстояний на карте" src="https://api-maps.yandex.ru/i/0.4/zero.gif"></i><i class="YMaps-button-c YMaps-button-r"><i></i></i></div></div><div class="YMaps-buttons" style="z-index: 999; right: 5px; top: 5px;"><div class="YMaps-button"><div class="YMaps-btn YMaps-cursor-pointer  YMaps-btn_green"><i class="YMaps-btn-round"><i class="YMaps-btn-l YMaps-btn-t"><i></i><b></b></i><i class="YMaps-btn-r YMaps-btn-t"><i></i><b></b></i></i><div class="YMaps-btn-v"><div class="YMaps-btn-h"><div class="YMaps-btn-i" style="width:100px;"><i class="YMaps-btn__disabler" style="height: 25px;"></i><div class="YMaps-btn-reduce"><a class="YMaps-btn-name YMaps-btn-name_green" href="javascript:void(0)"><span class="YMaps-btn-caption">Народная</span><i class="YMaps-arr"><i></i></i></a></div><div class="YMaps-btn-expand"><a class="YMaps-btn-name YMaps-btn-name_green" href="javascript:void(0)"><span class="YMaps-btn-caption">Народная</span><i class="YMaps-arr"><i></i></i></a><ul class="YMaps-btn-list YMaps-btn-list_hover"><li class="YMaps-btn-list-item"><a href="javascript:void(0)">Народная</a></li><li class="YMaps-btn-list-item"><a href="javascript:void(0)">Спутник</a></li><li class="YMaps-btn-list-item"><a href="javascript:void(0)">Гибрид</a></li></ul></div></div></div></div><i class="YMaps-btn-round"><i class="YMaps-btn-l YMaps-btn-b"><i></i><b></b></i><i class="YMaps-btn-r YMaps-btn-b"><i></i><b></b></i></i></div></div></div></div>
+    <p>&nbsp;</p>
+
+
+
+
+</div>

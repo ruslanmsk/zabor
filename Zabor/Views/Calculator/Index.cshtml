@@ -1,0 +1,161 @@
+﻿
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="content">
+
+
+    <h1>Рассчитать стоимость бетонного забора</h1>
+
+
+    <p>Для того  чтобы рассчитать стоимость покупки и установки декоративного железобетонного забора необходимо заполнить представленную ниже форму.</p>
+    <p>В этой форме нужно указать длину участка (в метрах), на котором будет установлен забор, выбрать высоту забора (одна плита имеет высоту 0,5 метра), а также выбрать тип плиты, указав её название. Плиты представлены на странице <a href="/mc/8/">Бетонные заборы. Плиты.</a></p>
+    <p>После заполнения формы и установки всех параметров необходимо нажать кнопку «Рассчитать». Делее будет рассчитана примерная стоимость покупки и установки декоративного железобетонного забора без  учета нюансов(специфика рельефа и индивидуальные пожелания заказчика).</p>
+    <hr color="#854b00" width="570" align="left">
+    <p></p><form action="#" method="POST">
+        <table>
+            <tbody>
+                <tr>
+                    <td><p style="font-size:12px; color:#5F5F5F;">Длина забора:</p></td>
+                    <td style="padding-left:10px; font-size:12px; color:#5F5F5F;"><p><input type="text" name="width" value="0" size="22"> , метров</p></td>
+                </tr>
+                <tr>
+                    <td><p style="font-size:12px; color:#5F5F5F;">Количество поворотов:</p></td>
+                    <td style="padding-left:10px;"><p><input type="text" name="pov" value="0" size="22"></p></td>
+                </tr>
+                <tr>
+                    <td><p style="font-size:12px; color:#5F5F5F;">Высота забора:</p></td>
+                    <td style="padding-left:10px; font-size:12px; color:#5F5F5F;">
+                        <p>
+                            <select name="height" style="width:100px;">
+                                <option value="300">
+                                    0.5
+                                </option>
+                                <option value="350">
+                                    1
+                                </option>
+                                <option value="400">
+                                    1.5
+                                </option>
+                                <option value="450">
+                                    2
+                                </option>
+                                <option value="550">
+                                    2.5
+                                </option>
+                            </select> , метра
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p style="font-size:12px; color:#5F5F5F;">Название плиты:</p></td>
+                    <td style="padding-left:10px; font-size:12px; color:#5F5F5F;">
+                        <p>
+                            <select name="name">
+                                <option value="280">
+                                    Плита № 1
+                                </option>
+                                <option value="280">
+                                    Плита № 2
+                                </option>
+                                <option value="280">
+                                    Плита № 3
+                                </option>
+                                <option value="280">
+                                    Плита № 4
+                                </option>
+                                <option value="280">
+                                    Плита № 5
+                                </option>
+                                <option value="280">
+                                    Плита № 6
+                                </option>
+                                <option value="280">
+                                    Плита № 7
+                                </option>
+                                <option value="280">
+                                    Плита № 8
+                                </option>
+                                <option value="280">
+                                    Плита № 9
+                                </option>
+                                <option value="280">
+                                    Плита № 10
+                                </option>
+                                <option value="280">
+                                    Плита № 11
+                                </option>
+                                <option value="280">
+                                    Плита № 12
+                                </option>
+                                <option value="280">
+                                    Плита № 13
+                                </option>
+                                <option value="280">
+                                    Плита № 14
+                                </option>
+                                <option value="280">
+                                    Плита № 15
+                                </option>
+                                <option value="280">
+                                    Плита № 16
+                                </option>
+                                <option value="280">
+                                    Плита № 17
+                                </option>
+                                <option value="280">
+                                    Плита № 18
+                                </option>
+                                <option value="280">
+                                    Плита № 19
+                                </option>
+                                <option value="300">
+                                    Плита № 20
+                                </option>
+                                <option value="300">
+                                    Плита № 21
+                                </option>
+                                <option value="300">
+                                    Плита № 22
+                                </option>
+                                <option value="300">
+                                    Плита № 23
+                                </option>
+                                <option value="300">
+                                    Плита № 24
+                                </option>
+                                <option value="280">
+                                    Плита № 25
+                                </option>
+                                <option value="280">
+                                    Плита № 26
+                                </option>
+                                <option value="280">
+                                    Плита № 27
+                                </option>
+                                <option value="250">
+                                    Плита № 28
+                                </option>
+                                <option value="280">
+                                    Плита № 29
+                                </option>
+                            </select>&nbsp;&nbsp;&nbsp;<a href="/mc/8/" target="_blank">посмотреть плиты</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p><input type="submit" name="summa" class="sub" value="Рассчитать"></p>
+    </form>
+    <hr color="#854b00" width="570" align="left">
+    <p></p>
+
+
+
+
+
+
+</div>
