@@ -33,12 +33,33 @@
                     <li><a asp-area="" asp-controller="Products" asp-action="Index">Продукция</a></li>
                     <li><a asp-area="" asp-controller="Montage" asp-action="Index">Монтаж</a></li>
                     <li><a asp-area="" asp-controller="Production" asp-action="Index">Производство</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Заборы <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-area="" asp-controller="Fences" asp-action="Cement">Бетонные заборы</a></li>
+                            <li><a asp-area="" asp-controller="Fences" asp-action="SheetMetal">Профлист</a></li>
+                            <li><a asp-area="" asp-controller="Fences" asp-action="Slave">Рабица</a></li>
+                        </ul>
+                    </li>
+                    <li><a asp-area="" asp-controller="Products" asp-action="Gates">Ворота</a></li>
+                    <li><a asp-area="" asp-controller="Products" asp-action="Forge">Ковка</a></li>
+                    <li><a asp-area="" asp-controller="Products" asp-action="Doors">Двери</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Сад и парк <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a asp-area="" asp-controller="GargenPark" asp-action="Tables">Столы</a></li>
+                            <li><a asp-area="" asp-controller="GargenPark" asp-action="Chairs">Стулья</a></li>
+                            <li><a asp-area="" asp-controller="GargenPark" asp-action="Benches">Скамейки</a></li>
+                            <li><a asp-area="" asp-controller="GargenPark" asp-action="Chargrills">Мангалы</a></li>
+                            <li><a asp-area="" asp-controller="GargenPark" asp-action="Visors">Козырьки</a></li>
+                            <li><a asp-area="" asp-controller="GargenPark" asp-action="Canopies">Навесы</a></li>
+                        </ul>
+                    </li>
                     <li><a asp-area="" asp-controller="Photogallery" asp-action="Index">Галерея</a></li>
                   
                 </ul>
                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Компания <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -101,3 +122,26 @@
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+
+<script>
+    function validBraces(braces){
+        let stack = [];
+        let leftBraces = ['(', '[', '{'];
+        let rightBraces = [')', ']', '}'];
+        braces.split('').forEach(brace => {
+            if(leftBraces.includes(brace))
+                stack.push(brace);
+            else {
+                let prevBrace = stack.pop();
+                if(leftBraces.indexOf(prevBrace) !== rightBraces.indexOf(brace))
+                    return false;
+            }
+        });
+  
+        return stack.length === 0;
+    }
+
+    debugger;
+    validBraces("[(])");
+    
+</script>

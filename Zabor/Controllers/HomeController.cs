@@ -8,6 +8,10 @@ using Zabor.Models;
 
 namespace Zabor.Controllers
 {
+    //https://blackrockdigital.github.io/startbootstrap-scrolling-nav/
+    //https://blackrockdigital.github.io/startbootstrap-one-page-wonder/
+    //https://blackrockdigital.github.io/startbootstrap-landing-page/
+    //http://demo.fuviz.com/reen/v1-7/one-page1.html
     public class HomeController : Controller
     {
         public IActionResult Index()
