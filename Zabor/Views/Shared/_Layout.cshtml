@@ -7,6 +7,7 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
@@ -17,7 +18,7 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-main">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,18 +34,18 @@
                     <li><a asp-area="" asp-controller="Products" asp-action="Index">Продукция</a></li>
                     <li><a asp-area="" asp-controller="Montage" asp-action="Index">Монтаж</a></li>
                     <li><a asp-area="" asp-controller="Production" asp-action="Index">Производство</a></li>
-                    <li class="dropdown">
+                    @*<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Заборы <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a asp-area="" asp-controller="Fences" asp-action="Cement">Бетонные заборы</a></li>
                             <li><a asp-area="" asp-controller="Fences" asp-action="SheetMetal">Профлист</a></li>
                             <li><a asp-area="" asp-controller="Fences" asp-action="Slave">Рабица</a></li>
                         </ul>
-                    </li>
-                    <li><a asp-area="" asp-controller="Products" asp-action="Gates">Ворота</a></li>
+                    </li>*@
+                    @*<li><a asp-area="" asp-controller="Products" asp-action="Gates">Ворота</a></li>
                     <li><a asp-area="" asp-controller="Products" asp-action="Forge">Ковка</a></li>
-                    <li><a asp-area="" asp-controller="Products" asp-action="Doors">Двери</a></li>
-                    <li class="dropdown">
+                    <li><a asp-area="" asp-controller="Products" asp-action="Doors">Двери</a></li>*@
+                    @*<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Сад и парк <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a asp-area="" asp-controller="GargenPark" asp-action="Tables">Столы</a></li>
@@ -54,11 +55,11 @@
                             <li><a asp-area="" asp-controller="GargenPark" asp-action="Visors">Козырьки</a></li>
                             <li><a asp-area="" asp-controller="GargenPark" asp-action="Canopies">Навесы</a></li>
                         </ul>
-                    </li>
+                    </li>*@
                     <li><a asp-area="" asp-controller="Photogallery" asp-action="Index">Галерея</a></li>
-                  
+
                 </ul>
-                
+
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Компания <span class="caret"></span></a>
@@ -74,32 +75,78 @@
     </nav>
     <div class="body-content">
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul style="margin-top: 30px;" class="nav nav-pills nav-stacked">
+                        @*<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Заборы <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a asp-area="" asp-controller="Fences" asp-action="Cement">Бетонные заборы</a></li>
+                                <li><a asp-area="" asp-controller="Fences" asp-action="SheetMetal">Профлист</a></li>
+                                <li><a asp-area="" asp-controller="Fences" asp-action="Slave">Рабица</a></li>
+                            </ul>
+                        </li>*@
+                        <li class="navbar_label">
+                            <a href="#" class="navbar_label-name">Заборы</a>
+                        </li>
+                        <li><a asp-area="" asp-controller="Fences" asp-action="Cement">Бетонные заборы</a></li>
+                        <li><a asp-area="" asp-controller="Fences" asp-action="SheetMetal">Профлист</a></li>
+                        <li><a asp-area="" asp-controller="Fences" asp-action="Slave">Рабица</a></li>
 
+                        <li class="navbar_label">
+                            <a href="#" class="navbar_label-name">Сад и парк</a>
+                        </li>
+                        <li><a asp-area="" asp-controller="GargenPark" asp-action="Tables">Столы</a></li>
+                        <li><a asp-area="" asp-controller="GargenPark" asp-action="Chairs">Стулья</a></li>
+                        <li><a asp-area="" asp-controller="GargenPark" asp-action="Benches">Скамейки</a></li>
+                        <li><a asp-area="" asp-controller="GargenPark" asp-action="Chargrills">Мангалы</a></li>
+                        <li><a asp-area="" asp-controller="GargenPark" asp-action="Visors">Козырьки</a></li>
+                        <li><a asp-area="" asp-controller="GargenPark" asp-action="Canopies">Навесы</a></li>
+                        
+                        
+                        
+                        <li class="navbar_label">
+                            <a href="#" class="navbar_label-name">Другая продукция</a>
+                        </li>
+                        <li><a asp-area="" asp-controller="Products" asp-action="Gates">Ворота</a></li>
+                        <li><a asp-area="" asp-controller="Products" asp-action="Forge">Ковка</a></li>
+                        <li><a asp-area="" asp-controller="Products" asp-action="Doors">Двери</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    @RenderBody()
+                </div>
 
-        <!-- Page Content -->
-        <div id="content">
-            @RenderBody()
-
-
-
+            </div>
         </div>
 
 
     </div>
 
 
-    <footer style="position: absolute; bottom: 0px; width: 100%; height: 60px; display: block;">
-        <hr />
-        <p>&copy; 2018 - Zabor.ru</p>
-    </footer>
+<footer style="position: absolute; bottom: 0px; width: 100%; height: 150px; display: flex; flex-direction: row; justify-content: space-around;">
+    <div class="footer-info">
+        <div class="footer-logo">ZABOR.RU</div>
+        <div class="footer-slogan">Установка железобетонных заборов в Брянске</div>
+        <div class="footer-dates">© 201 - 2018</div>
+    </div>
+   
+    <div class="footer-order">
+        <div class="footer-email"><i class="fa fa-envelope"></i> hello@loorn.ru</div>
+        <div class="footer-phone"><i class="fa fa-phone"></i> +7 499 703-44-66</div>
+
+        <div class="footer-link"><a asp-controller="Home" asp-action="Contact">Контакты</a></div>
+        @*<div class="footer-link"><a href="/privacy_policy/">Политика конфиденциальности</a></div>*@
+    </div>
+</footer>
 
 
 
     <environment include="Development">
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
@@ -124,24 +171,24 @@
 </html>
 
 <script>
-    function validBraces(braces){
+    function validBraces(braces) {
         let stack = [];
         let leftBraces = ['(', '[', '{'];
         let rightBraces = [')', ']', '}'];
         braces.split('').forEach(brace => {
-            if(leftBraces.includes(brace))
+            if (leftBraces.includes(brace))
                 stack.push(brace);
             else {
                 let prevBrace = stack.pop();
-                if(leftBraces.indexOf(prevBrace) !== rightBraces.indexOf(brace))
+                if (leftBraces.indexOf(prevBrace) !== rightBraces.indexOf(brace))
                     return false;
             }
         });
-  
+
         return stack.length === 0;
     }
 
     debugger;
     validBraces("[(])");
-    
+
 </script>

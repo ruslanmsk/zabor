@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    margin-bottom: 60px;
+    margin-bottom: 150px;
     display: block;
 }
 
@@ -17,3 +17,73 @@ body {
 
 
 
+.navbar_label {
+    background-color: #2b9;
+}
+.navbar_label-subitem {
+    padding-left: 20px;
+}
+
+
+.navbar_label-name {
+    color: white;
+}
+
+    .navbar_label-name:hover, .navbar_label-name:active {
+        color: white !important;
+        background-color: inherit !important;
+    }
+
+
+.navbar-main {
+    background-color: #34425C!important;
+}
+
+    .navbar-main li  a {
+        color: white!important;
+    }
+
+.dropdown-menu {
+    background-color: #34425C;
+}
+    .dropdown-menu a:hover, .dropdown-menu a:focus {
+        background-color: black !important;
+    }
+
+
+    footer {
+        padding: 20px 0;
+        background-color: #34425C;
+    }
+
+
+.footer-logo {
+    font-size: 30px;
+    line-height: 30px;
+    color: rgba(0,0,0,0.25);
+    font-weight: 500;
+}
+
+.footer-slogan {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.footer-dates {
+    color: #BFC5D0;
+}
+
+.footer-email {
+    margin: 10px 0 0;
+    color: #BFC5D0;
+}
+
+.footer-phone {
+    margin: 10px 0 0;
+    color: #BFC5D0;
+}
+
+.footer-link {
+    margin: 10px 0 0;
+    font-weight: 500;
+}
