@@ -3,7 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Zabor</title>
+    <title>@ViewData["Title"] | Zabor</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.gif" />
+    
+    <meta name="description" content="@ViewData["MetaDescription"]">
+    <meta name="keywords" content="@ViewData["MetaKeywords"]">
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -56,7 +61,7 @@
                             <li><a asp-area="" asp-controller="GargenPark" asp-action="Canopies">Навесы</a></li>
                         </ul>
                     </li>*@
-                    <li><a asp-area="" asp-controller="Photogallery" asp-action="Index">Галерея</a></li>
+                    @*<li><a asp-area="" asp-controller="Photogallery" asp-action="Index">Галерея</a></li>*@
 
                 </ul>
 
@@ -129,12 +134,12 @@
     <div class="footer-info">
         <div class="footer-logo">ZABOR.RU</div>
         <div class="footer-slogan">Установка железобетонных заборов в Брянске</div>
-        <div class="footer-dates">© 201 - 2018</div>
+        <div class="footer-dates">© 2017 - 2018</div>
     </div>
    
     <div class="footer-order">
-        <div class="footer-email"><i class="fa fa-envelope"></i> hello@loorn.ru</div>
-        <div class="footer-phone"><i class="fa fa-phone"></i> +7 499 703-44-66</div>
+        <div class="footer-email"><i class="fa fa-envelope"></i> bryanskzabor@gmail.com</div>
+        <div class="footer-phone"><i class="fa fa-phone"></i> +7 910 330-49-55</div>
 
         <div class="footer-link"><a asp-controller="Home" asp-action="Contact">Контакты</a></div>
         @*<div class="footer-link"><a href="/privacy_policy/">Политика конфиденциальности</a></div>*@

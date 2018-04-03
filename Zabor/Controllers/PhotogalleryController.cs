@@ -8,9 +8,9 @@ namespace Zabor.Controllers
 {
     public class PhotogalleryController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
     }
 }
