@@ -9,6 +9,8 @@
     
     <meta name="description" content="@ViewData["MetaDescription"]">
     <meta name="keywords" content="@ViewData["MetaKeywords"]">
+    
+    <link href="/fonts/Pacifico-font.css" rel="stylesheet">
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -33,7 +35,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Zabor</a>
+                <a style="font-family: 'Pacifico', cursive; font-size: 35px;color:cadetblue" asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Z</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -102,6 +104,13 @@
                         <li><a asp-area="" asp-controller="Fences" asp-action="Cement">Бетонные заборы</a></li>
                         <li><a asp-area="" asp-controller="Fences" asp-action="SheetMetal">Профлист</a></li>
                         <li><a asp-area="" asp-controller="Fences" asp-action="Slave">Рабица</a></li>
+                        
+                        <li class="navbar_label">
+                            <a href="#" class="navbar_label-name">Другая продукция</a>
+                        </li>
+                        <li><a asp-area="" asp-controller="Products" asp-action="Gates">Ворота</a></li>
+                        <li><a asp-area="" asp-controller="Products" asp-action="Forge">Ковка</a></li>
+                        <li><a asp-area="" asp-controller="Products" asp-action="Doors">Двери</a></li>
 
                         <li class="navbar_label">
                             <a href="#" class="navbar_label-name">Сад и парк</a>
@@ -115,12 +124,7 @@
                         
                         
                         
-                        <li class="navbar_label">
-                            <a href="#" class="navbar_label-name">Другая продукция</a>
-                        </li>
-                        <li><a asp-area="" asp-controller="Products" asp-action="Gates">Ворота</a></li>
-                        <li><a asp-area="" asp-controller="Products" asp-action="Forge">Ковка</a></li>
-                        <li><a asp-area="" asp-controller="Products" asp-action="Doors">Двери</a></li>
+                      
                     </ul>
                 </div>
                 <div class="col-md-9">
@@ -136,7 +140,7 @@
 
 <footer style="position: absolute; bottom: 0px; width: 100%; height: 150px; display: flex; flex-direction: row; justify-content: space-around;">
     <div class="footer-info">
-        <div class="footer-logo">ZABOR.RU</div>
+        <div class="footer-logo">ZABORPROEKT32.RU</div>
         <div class="footer-slogan">Установка железобетонных заборов в Брянске</div>
         <div class="footer-dates">© 2017 - 2018</div>
     </div>
@@ -179,25 +183,3 @@
 </body>
 </html>
 
-<script>
-    function validBraces(braces) {
-        let stack = [];
-        let leftBraces = ['(', '[', '{'];
-        let rightBraces = [')', ']', '}'];
-        braces.split('').forEach(brace => {
-            if (leftBraces.includes(brace))
-                stack.push(brace);
-            else {
-                let prevBrace = stack.pop();
-                if (leftBraces.indexOf(prevBrace) !== rightBraces.indexOf(brace))
-                    return false;
-            }
-        });
-
-        return stack.length === 0;
-    }
-
-    debugger;
-    validBraces("[(])");
-
-</script>
