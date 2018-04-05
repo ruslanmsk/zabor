@@ -28,7 +28,7 @@
                             <label>Название плиты</label>
                         </td>
                         <td>
-                            <select class="form-control input-sm">
+                            <select id="price" class="form-control input-sm">
                                 <option value="280">
                                     Плита № 1
                                 </option>
@@ -123,20 +123,35 @@
                         <td>
                             <label>Длина забора</label>
                         </td>
-                        <td><input class="form-control input-sm" /></td>
+                        <td><input id="length" class="form-control input-sm" /></td>
                     </tr>
                     <tr>
                         <td>
                             <label>Количество поворотов</label>
                         </td>
-                        <td><input class="form-control input-sm" /></td>
+                        <td><input id="turns" class="form-control input-sm" /></td>
                     </tr>
                     <tr>
                         <td>
                             <label>Высота забора</label>
                         </td>
                         <td>
-                            <select class="form-control input-sm">
+                            <select id="height" class="form-control input-sm">
+                                @*<option value="300">
+                                    0.5
+                                </option>
+                                <option value="350">
+                                    1
+                                </option>
+                                <option value="400">
+                                    1.5
+                                </option>
+                                <option value="450">
+                                    2
+                                </option>
+                                <option value="550">
+                                    2.5
+                                </option>*@
                                 <option value="300">
                                     0.5
                                 </option>
@@ -177,7 +192,22 @@
             var td2 = document.createElement("td");
             debugger;
             td1.innerHTML = "<label>Итого</label>";
-            td2.innerHTML = "<span style=\"float:left;font-weight:bold;\">255353 руб</span>";
+
+            
+            var lengtn = $("#length").val() || 0;
+            var height = $("#height").val() || 0;
+            var turns = $("#turns").val() || 0;
+            var price = $("#price").val() || 0;
+
+            var stolbs = Math.ceil(lengtn / 2) + 1 + turns;
+            var spaces = Math.ceil(lengtn / 2);
+
+            var sum = spaces * price * height * 2 + stolbs * 230;
+            var sumStr = `${sum} руб`;
+
+            td2.innerHTML = `<span style=\"float:left;font-weight:bold;\">${sumStr}</span>`;
+
+
             tr.appendChild(td1);
             tr.appendChild(td2);
             table.appendChild(tr);
