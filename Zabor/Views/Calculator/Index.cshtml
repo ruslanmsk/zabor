@@ -152,19 +152,19 @@
                                 <option value="550">
                                     2.5
                                 </option>*@
-                                <option value="300">
+                                <option value="0.5">
                                     0.5
                                 </option>
-                                <option value="350">
+                                <option value="1">
                                     1
                                 </option>
-                                <option value="400">
+                                <option value="1.5">
                                     1.5
                                 </option>
-                                <option value="450">
+                                <option value="2">
                                     2
                                 </option>
-                                <option value="550">
+                                <option value="2.5">
                                     2.5
                                 </option>
                             </select>
@@ -180,10 +180,10 @@
     <script>
         var buttton = document.getElementById("calculate");
         buttton.addEventListener("click", function () {
-
+            debugger;
             var oldTr = document.getElementsByClassName("tr_sum");
             if (oldTr.length > 0)
-                oldTr.remove();
+                oldTr[0].remove();
 
             var table = document.getElementById("calculate-table");
             var tr = document.createElement("tr");
@@ -203,7 +203,7 @@
             var spaces = Math.ceil(lengtn / 2);
 
             var sum = spaces * price * height * 2 + stolbs * 230;
-            var sumStr = `${sum} руб`;
+            var sumStr = `${sum+400} руб`;
 
             td2.innerHTML = `<span style=\"float:left;font-weight:bold;\">${sumStr}</span>`;
 
