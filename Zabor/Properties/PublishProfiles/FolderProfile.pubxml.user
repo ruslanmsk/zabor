@@ -7,5 +7,6 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>C:\Users\krvip\Desktop\Zabor_release</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACDlxisW2nU+/jqKnjS9XogAAAAACAAAAAAAQZgAAAAEAACAAAAD1k8pVVJKTrA20jfz5QVv3kFBQVy09Lo0tx8+kYHPFewAAAAAOgAAAAAIAACAAAABHCz3394rzJmyoHYB5Ay4TT9lm/Y+39ICbTJnvoouePyAAAADtdN9ex9g5ysnXqllQFEF4DZr7GLliJ0FXs7helvsh/UAAAAAqyEUF5AEbcblDkb1k8fCIM0Vwve3IhwKjzrlzaLBqAe14VYuyg2RWx9Y/6HEBQ2YWkPVFK9x9T4gPwMEs+mGQ</EncryptedPassword>
   </PropertyGroup>
 </Project>
