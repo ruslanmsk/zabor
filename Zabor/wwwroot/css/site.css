@@ -37,7 +37,7 @@ body {
 
 
 .navbar-main {
-    background-color: #34425C !important;
+    background-color: #2196f3 !important;
 }
 
     .navbar-main li a {
@@ -45,7 +45,7 @@ body {
     }
 
 .dropdown-menu {
-    background-color: #34425C;
+    background-color: #2196f3;
 }
 
     .dropdown-menu a:hover, .dropdown-menu a:focus {
