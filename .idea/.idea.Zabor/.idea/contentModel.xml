@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="zabor" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="bundleconfig.json" t="Include" />
+        <e p="Controllers" t="Include">
+          <e p="CalculatorController.cs" t="Include" />
+          <e p="FencesController.cs" t="Include" />
+          <e p="GargenParkController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="MontageController.cs" t="Include" />
+          <e p="PhotogalleryController.cs" t="Include" />
+          <e p="ProductionController.cs" t="Include" />
+          <e p="ProductsController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="Zabor.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="FolderProfile.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Calculator" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Fences" t="Include">
+            <e p="Cement.cshtml" t="Include" />
+            <e p="SheetMetal.cshtml" t="Include" />
+            <e p="Slave.cshtml" t="Include" />
+          </e>
+          <e p="GargenPark" t="Include">
+            <e p="Benches.cshtml" t="Include" />
+            <e p="Canopies.cshtml" t="Include" />
+            <e p="Chairs.cshtml" t="Include" />
+            <e p="Chargrills.cshtml" t="Include" />
+            <e p="Tables.cshtml" t="Include" />
+            <e p="Visors.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Feedback.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="montage" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Photogallery" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="production" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="products" t="Include">
+            <e p="Doors.cshtml" t="Include" />
+            <e p="Forge.cshtml" t="Include" />
+            <e p="Gates.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+            <e p="site.min.css" t="Include" />
+          </e>
+          <e p="favicon.gif" t="Include" />
+          <e p="favicon.ico" t="Include" />
+          <e p="fonts" t="Include">
+            <e p="FwZY7-Qmy14u9lezJ-6D6MmTpA.woff2" t="Include" />
+            <e p="FwZY7-Qmy14u9lezJ-6H6Mk.woff2" t="Include" />
+            <e p="FwZY7-Qmy14u9lezJ-6I6MmTpA.woff2" t="Include" />
+            <e p="FwZY7-Qmy14u9lezJ-6J6MmTpA.woff2" t="Include" />
+            <e p="Pacifico-font.css" t="Include" />
+          </e>
+          <e p="images" t="Include">
+            <e p="1.jpg" t="Include" />
+            <e p="2.jpg" t="Include" />
+            <e p="3.jpg" t="Include" />
+            <e p="4.jpg" t="Include" />
+            <e p="5.jpg" t="Include" />
+            <e p="6.jpg" t="Include" />
+            <e p="7.jpg" t="Include" />
+            <e p="8.jpg" t="Include" />
+            <e p="9.jpg" t="Include" />
+            <e p="about" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+            </e>
+            <e p="benches" t="Include">
+              <e p="1.png" t="Include" />
+              <e p="2.png" t="Include" />
+              <e p="3.png" t="Include" />
+              <e p="4.png" t="Include" />
+              <e p="5.jpg" t="Include" />
+              <e p="6.jpg" t="Include" />
+              <e p="7.jpg" t="Include" />
+            </e>
+            <e p="bg-header.jpg" t="Include" />
+            <e p="canopies" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="10.jpeg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="4.jpg" t="Include" />
+              <e p="5.jpg" t="Include" />
+              <e p="6.jpg" t="Include" />
+              <e p="7.jpg" t="Include" />
+              <e p="8.jpeg" t="Include" />
+              <e p="9.jpeg" t="Include" />
+            </e>
+            <e p="chairs" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+            </e>
+            <e p="chargrills" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.png" t="Include" />
+              <e p="4.png" t="Include" />
+              <e p="5.jpg" t="Include" />
+            </e>
+            <e p="doors" t="Include">
+              <e p="1.png" t="Include" />
+              <e p="2.png" t="Include" />
+              <e p="3.png" t="Include" />
+              <e p="4.png" t="Include" />
+              <e p="5.png" t="Include" />
+              <e p="6.png" t="Include" />
+              <e p="7.png" t="Include" />
+            </e>
+            <e p="fenceColumns" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="stolb.jpg" t="Include" />
+            </e>
+            <e p="fenceCovers" t="Include">
+              <e p="har.jpg" t="Include" />
+              <e p="krish1.jpg" t="Include" />
+              <e p="krish2.jpg" t="Include" />
+              <e p="krish3.jpg" t="Include" />
+              <e p="lev.jpg" t="Include" />
+              <e p="orel.jpg" t="Include" />
+              <e p="travn.png" t="Include" />
+            </e>
+            <e p="fencePlates" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="10.jpg" t="Include" />
+              <e p="12.jpg" t="Include" />
+              <e p="13.jpg" t="Include" />
+              <e p="14.jpg" t="Include" />
+              <e p="15.jpg" t="Include" />
+              <e p="16.jpg" t="Include" />
+              <e p="17.jpg" t="Include" />
+              <e p="18.jpg" t="Include" />
+              <e p="19.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="20.jpg" t="Include" />
+              <e p="21.jpg" t="Include" />
+              <e p="21n.png" t="Include" />
+              <e p="22.jpg" t="Include" />
+              <e p="23.jpg" t="Include" />
+              <e p="24.jpg" t="Include" />
+              <e p="26.png" t="Include" />
+              <e p="27.png" t="Include" />
+              <e p="28.png" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="30.jpg" t="Include" />
+              <e p="31.jpg" t="Include" />
+              <e p="32.jpg" t="Include" />
+              <e p="4.jpg" t="Include" />
+              <e p="5.jpg" t="Include" />
+              <e p="6n.png" t="Include" />
+              <e p="7.jpg" t="Include" />
+              <e p="8.jpg" t="Include" />
+              <e p="9.jpg" t="Include" />
+              <e p="DSC02266.png" t="Include" />
+            </e>
+            <e p="File0014_01.jpg" t="Include" />
+            <e p="forge" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="1.png" t="Include" />
+              <e p="10.jpeg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="2.png" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="3.png" t="Include" />
+              <e p="4.jpg" t="Include" />
+              <e p="5.jpg" t="Include" />
+              <e p="6.jpg" t="Include" />
+              <e p="7.jpg" t="Include" />
+              <e p="8.jpg" t="Include" />
+              <e p="9.jpg" t="Include" />
+            </e>
+            <e p="gates" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="10.jpg" t="Include" />
+              <e p="11.jpg" t="Include" />
+              <e p="12.jpg" t="Include" />
+              <e p="13.jpg" t="Include" />
+              <e p="14.jpg" t="Include" />
+              <e p="15.jpg" t="Include" />
+              <e p="16.jpg" t="Include" />
+              <e p="17.jpg" t="Include" />
+              <e p="18.jpg" t="Include" />
+              <e p="19.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="20.jpg" t="Include" />
+              <e p="21.jpg" t="Include" />
+              <e p="22.jpg" t="Include" />
+              <e p="23.jpg" t="Include" />
+              <e p="24.jpg" t="Include" />
+              <e p="25.jpeg" t="Include" />
+              <e p="26.jpeg" t="Include" />
+              <e p="27.jpeg" t="Include" />
+              <e p="28.jpeg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="4.jpg" t="Include" />
+              <e p="5.jpg" t="Include" />
+              <e p="6.jpg" t="Include" />
+              <e p="7.jpg" t="Include" />
+              <e p="8.jpg" t="Include" />
+              <e p="9.jpg" t="Include" />
+            </e>
+            <e p="montage" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+            </e>
+            <e p="production" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="4.jpg" t="Include" />
+              <e p="5.jpg" t="Include" />
+            </e>
+            <e p="products" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="4.jpg" t="Include" />
+            </e>
+            <e p="sheetMetal" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="10.jpg" t="Include" />
+              <e p="11.jpg" t="Include" />
+              <e p="12.jpg" t="Include" />
+              <e p="13.jpg" t="Include" />
+              <e p="14.jpg" t="Include" />
+              <e p="15.jpg" t="Include" />
+              <e p="16.jpg" t="Include" />
+              <e p="17.jpg" t="Include" />
+              <e p="18.jpg" t="Include" />
+              <e p="19.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="20.jpg" t="Include" />
+              <e p="21.jpg" t="Include" />
+              <e p="22.jpg" t="Include" />
+              <e p="23.jpeg" t="Include" />
+              <e p="24.jpeg" t="Include" />
+              <e p="25.jpeg" t="Include" />
+              <e p="26.jpeg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="4.jpg" t="Include" />
+              <e p="5.jpg" t="Include" />
+              <e p="6.jpg" t="Include" />
+              <e p="7.jpg" t="Include" />
+              <e p="8.jpg" t="Include" />
+              <e p="9.jpg" t="Include" />
+            </e>
+            <e p="slave" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="10.jpeg" t="Include" />
+              <e p="11.jpeg" t="Include" />
+              <e p="12.jpeg" t="Include" />
+              <e p="13.jpeg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="4.jpg" t="Include" />
+              <e p="5.jpg" t="Include" />
+              <e p="6.jpg" t="Include" />
+              <e p="7.jpg" t="Include" />
+              <e p="8.jpg" t="Include" />
+              <e p="9.jpg" t="Include" />
+            </e>
+            <e p="tables" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="4.png" t="Include" />
+            </e>
+            <e p="visors" t="Include">
+              <e p="1.jpg" t="Include" />
+              <e p="2.jpg" t="Include" />
+              <e p="3.jpg" t="Include" />
+              <e p="4.jpg" t="Include" />
+              <e p="5.jpg" t="Include" />
+            </e>
+          </e>
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+            <e p="site.min.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-theme.css" t="Include" />
+                  <e p="bootstrap-theme.css.map" t="Include" />
+                  <e p="bootstrap-theme.min.css" t="Include" />
+                  <e p="bootstrap-theme.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+          </e>
+          <e p="robots.txt" t="Include" />
+          <e p="sitemap.xml" t="Include" />
+          <e p="sitemap.xml.gz" t="Include" />
+        </e>
+        <e p="Zabor.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Zabor.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_Zabor.-1236870817.00" t="ExcludeRecursive" />
+  </component>
+</project>

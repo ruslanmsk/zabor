@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5ff3822-4fa8-4971-a054-26900d4fc83f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/canopies/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/canopies/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/canopies/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/forge/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/gates/25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/gates/26.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/gates/27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/gates/28.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/sheetMetal/23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/sheetMetal/24.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/sheetMetal/25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/sheetMetal/26.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/slave/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/slave/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/slave/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zabor/wwwroot/images/slave/13.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zabor/Views/Fences/SheetMetal.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Zabor/Views/Fences/SheetMetal.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zabor/Views/Fences/Slave.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Zabor/Views/Fences/Slave.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zabor/Views/GargenPark/Canopies.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Zabor/Views/GargenPark/Canopies.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zabor/Views/Home/Contact.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Zabor/Views/Home/Contact.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zabor/Views/Products/Forge.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Zabor/Views/Products/Forge.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zabor/Views/Products/Gates.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Zabor/Views/Products/Gates.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zabor/Zabor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Zabor/Zabor.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/Fences/SheetMetal.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/Fences/Slave.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Controllers/ProductsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/Montage/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/Products/Forge.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/Products/Gates.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/Home/Contact.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/GargenPark/Visors.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/Home/Feedback.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Zabor/Views/GargenPark/Canopies.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Zabor/Views/Home/Contact.cshtml" />
+        <option value="$PROJECT_DIR$/Zabor/Views/Products/Gates.cshtml" />
+        <option value="$PROJECT_DIR$/Zabor/Views/Products/Forge.cshtml" />
+        <option value="$PROJECT_DIR$/Zabor/Views/GargenPark/Canopies.cshtml" />
+        <option value="$PROJECT_DIR$/Zabor/Views/Fences/SheetMetal.cshtml" />
+        <option value="$PROJECT_DIR$/Zabor/Views/Fences/Slave.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zabor (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zabor (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zabor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zabor (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zabor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zabor (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zabor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Fences" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zabor (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zabor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zabor (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zabor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="images" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Zabor (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Zabor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="wwwroot" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="images" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="slave" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Zabor/bin/Debug/netcoreapp2.0/Zabor.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Zabor" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:51344/" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Zabor/Zabor.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser start="true" url="http://localhost:51344/" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5ff3822-4fa8-4971-a054-26900d4fc83f" name="Default" comment="" />
+      <created>1534790024647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534790024647</updated>
+      <workItem from="1534790027055" duration="358000" />
+      <workItem from="1534790937203" duration="1099000" />
+      <workItem from="1534792067829" duration="523000" />
+      <workItem from="1534792596622" duration="680000" />
+      <workItem from="1536177816234" duration="1614000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4274000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.2735043" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502442" side_tool="true" visible="true" weight="0.5564706" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498779" weight="0.37764707" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.497558" visible="true" weight="0.5564706" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21733822" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="9" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Zabor/Zabor.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Home/Contact.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <marker date="1534791493646" expanded="true" signature="0:253" ph="@..." />
+            <marker date="1534791493646" expanded="true" signature="346:853" ph="&lt;div.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="391:492" ph="&lt;p.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="855:2268" ph="&lt;script.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="936:2258" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="975:1051" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1133:1316" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1330:1389" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1437:1680" ph="[...]" />
+            <marker date="1534791493646" expanded="true" signature="1682:1862" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1696:1763" ph="/* Описываем свойства геообъекта. ... */" />
+            <marker date="1534791493646" expanded="true" signature="1864:2189" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1878:1954" ph="/* Задаем опции геообъекта. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Zabor.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Home/Contact.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <marker date="1534791493646" expanded="true" signature="0:253" ph="@..." />
+            <marker date="1534791493646" expanded="true" signature="346:853" ph="&lt;div.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="391:492" ph="&lt;p.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="855:2268" ph="&lt;script.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="936:2258" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="975:1051" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1133:1316" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1330:1389" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1437:1680" ph="[...]" />
+            <marker date="1534791493646" expanded="true" signature="1682:1862" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1696:1763" ph="/* Описываем свойства геообъекта. ... */" />
+            <marker date="1534791493646" expanded="true" signature="1864:2189" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1878:1954" ph="/* Задаем опции геообъекта. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Zabor.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Home/Contact.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <marker date="1534791493646" expanded="true" signature="0:253" ph="@..." />
+            <marker date="1534791493646" expanded="true" signature="346:853" ph="&lt;div.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="391:492" ph="&lt;p.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="855:2268" ph="&lt;script.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="936:2258" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="975:1051" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1133:1316" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1330:1389" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1437:1680" ph="[...]" />
+            <marker date="1534791493646" expanded="true" signature="1682:1862" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1696:1763" ph="/* Описываем свойства геообъекта. ... */" />
+            <marker date="1534791493646" expanded="true" signature="1864:2189" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1878:1954" ph="/* Задаем опции геообъекта. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Zabor.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Home/Contact.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <marker date="1534791493646" expanded="true" signature="0:253" ph="@..." />
+            <marker date="1534791493646" expanded="true" signature="346:853" ph="&lt;div.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="391:492" ph="&lt;p.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="855:2268" ph="&lt;script.../&gt;" />
+            <marker date="1534791493646" expanded="true" signature="936:2258" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="975:1051" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1133:1316" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1330:1389" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1437:1680" ph="[...]" />
+            <marker date="1534791493646" expanded="true" signature="1682:1862" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1696:1763" ph="/* Описываем свойства геообъекта. ... */" />
+            <marker date="1534791493646" expanded="true" signature="1864:2189" ph="{...}" />
+            <marker date="1534791493646" expanded="true" signature="1878:1954" ph="/* Задаем опции геообъекта. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Zabor.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/fencePlates/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Controllers/ProductsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <marker date="1534789434768" expanded="true" signature="60:479" ph="{...}" />
+            <marker date="1534789434768" expanded="true" signature="111:477" ph="{...}" />
+            <marker date="1534789434768" expanded="true" signature="169:216" ph="{...}" />
+            <marker date="1534789434768" expanded="true" signature="254:301" ph="{...}" />
+            <marker date="1534789434768" expanded="true" signature="339:386" ph="{...}" />
+            <marker date="1534789434768" expanded="true" signature="424:471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/gates/25.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/forge/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/forge/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Products/Gates.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="159" column="42" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+          <folding>
+            <marker date="1536178736456" expanded="true" signature="2:334" ph="@..." />
+            <marker date="1536178736456" expanded="true" signature="337:5502" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="729:5494" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="755:914" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="799:899" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="923:1082" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="967:1067" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1091:1250" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1135:1235" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1259:1418" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1303:1403" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1427:1586" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1471:1571" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1595:1754" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1639:1739" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1763:1922" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1807:1907" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1931:2090" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="1975:2075" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2099:2258" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2143:2243" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2267:2427" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2311:2412" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2436:2596" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2480:2581" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2605:2765" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2649:2750" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2774:2934" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2818:2919" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2943:3103" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="2987:3088" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3112:3272" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3156:3257" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3281:3441" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3325:3426" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3450:3610" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3494:3595" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3619:3779" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3663:3764" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3788:3948" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3832:3933" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="3957:4117" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4001:4102" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4126:4286" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4170:4271" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4295:4455" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4339:4440" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4464:4624" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4508:4609" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4633:4793" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4677:4778" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4811:4972" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4855:4957" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="4981:5142" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="5025:5127" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="5151:5312" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="5195:5297" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="5321:5482" ph="&lt;div.../&gt;" />
+            <marker date="1536178736456" expanded="true" signature="5365:5467" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Home/Feedback.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1534789434795" expanded="true" signature="1:288" ph="@..." />
+            <marker date="1534789434795" expanded="true" signature="290:2234" ph="&lt;div.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="589:2223" ph="&lt;div.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="617:2212" ph="&lt;form.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="661:836" ph="&lt;p.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="849:1011" ph="&lt;p.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="1024:1201" ph="&lt;p.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="1293:1412" ph="&lt;p.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="1425:1445" ph="&lt;p.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="1445:1948" ph="&lt;table.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="1469:1940" ph="&lt;tbody.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="1476:1674" ph="&lt;tr.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="1692:1910" ph="&lt;tr.../&gt;" />
+            <marker date="1534789434795" expanded="true" signature="1981:2195" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/gates/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/forge/10.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Products/Forge.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="68" selection-start-line="68" selection-end-line="90" selection-end-column="46" />
+          <folding>
+            <marker date="1536178819730" expanded="true" signature="2:356" ph="@..." />
+            <marker date="1536178819730" expanded="true" signature="361:2944" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="403:618" ph="&lt;p.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="624:714" ph="&lt;p.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="721:2935" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="747:906" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="791:891" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="915:1074" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="959:1059" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1083:1242" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1127:1227" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1251:1410" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1295:1395" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1419:1578" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1463:1563" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1587:1746" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1631:1731" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1755:1914" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1799:1899" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1923:2082" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="1967:2067" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2091:2250" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2135:2235" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2259:2418" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2303:2403" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2427:2586" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2471:2571" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2595:2754" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2639:2739" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2763:2924" ph="&lt;div.../&gt;" />
+            <marker date="1536178819730" expanded="true" signature="2807:2909" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Montage/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1534789434796" expanded="true" signature="1:463" ph="@..." />
+            <marker date="1534789434796" expanded="true" signature="465:3016" ph="&lt;div.../&gt;" />
+            <marker date="1534789434796" expanded="true" signature="531:1079" ph="&lt;p.../&gt;" />
+            <marker date="1534789434796" expanded="true" signature="534:825" ph="&lt;a.../&gt;" />
+            <marker date="1534789434796" expanded="true" signature="1886:2546" ph="&lt;div.../&gt;" />
+            <marker date="1534789434796" expanded="true" signature="1919:2021" ph="&lt;a.../&gt;" />
+            <marker date="1534789434796" expanded="true" signature="2556:2852" ph="&lt;p.../&gt;" />
+            <marker date="1534789434796" expanded="true" signature="2568:2843" ph="&lt;a.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/GargenPark/Visors.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1534789434794" expanded="true" signature="2:248" ph="@..." />
+            <marker date="1534789434794" expanded="true" signature="251:1581" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="697:1570" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="723:883" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="767:868" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="892:1052" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="936:1037" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="1061:1221" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="1105:1206" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="1230:1390" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="1274:1375" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="1399:1559" ph="&lt;div.../&gt;" />
+            <marker date="1534789434794" expanded="true" signature="1443:1544" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/canopies/8.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/GargenPark/Canopies.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <marker date="1536178977833" expanded="true" signature="15:247" ph="@..." />
+            <marker date="1536178977833" expanded="true" signature="249:2416" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="661:2407" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="687:849" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="731:834" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="858:1024" ph="@*...*@" />
+            <marker date="1536178977833" expanded="true" signature="1033:1195" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1077:1180" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1204:1366" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1248:1351" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1375:1537" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1419:1522" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1546:1708" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1590:1693" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1717:1879" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1761:1864" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1888:2051" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="1932:2036" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="2060:2223" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="2104:2208" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="2232:2396" ph="&lt;div.../&gt;" />
+            <marker date="1536178977833" expanded="true" signature="2276:2381" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/sheetMetal/23.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/sheetMetal/25.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Fences/SheetMetal.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="147" column="35" lean-forward="true" selection-start-line="147" selection-start-column="35" selection-end-line="147" selection-end-column="35" />
+          <folding>
+            <marker date="1536179173452" expanded="true" signature="2:348" ph="@..." />
+            <marker date="1536179173452" expanded="true" signature="350:5386" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="821:5370" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="847:1011" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="891:996" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1020:1184" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1064:1169" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1193:1357" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1237:1342" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1366:1530" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1410:1515" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1539:1703" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1583:1688" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1712:1876" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1756:1861" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1887:2051" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="1931:2036" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2060:2224" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2104:2209" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2233:2397" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2277:2382" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2406:2571" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2450:2556" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2580:2745" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2624:2730" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2754:2919" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2798:2904" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2928:3093" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="2972:3078" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3102:3267" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3146:3252" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3276:3441" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3320:3426" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3450:3615" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3494:3600" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3624:3789" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3668:3774" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3798:3963" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3842:3948" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="3972:4137" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4016:4122" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4146:4311" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4190:4296" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4320:4485" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4364:4470" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4494:4659" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4538:4644" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4668:4834" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4712:4819" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4843:5009" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="4887:4994" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="5018:5184" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="5062:5169" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="5193:5359" ph="&lt;div.../&gt;" />
+            <marker date="1536179173452" expanded="true" signature="5237:5344" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/wwwroot/images/slave/10.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zabor/Views/Fences/Slave.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+          <folding>
+            <marker date="1536179283982" expanded="true" signature="2:296" ph="@..." />
+            <marker date="1536179283982" expanded="true" signature="297:2802" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="572:2792" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="598:757" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="642:742" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="766:925" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="810:910" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="934:1093" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="978:1078" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1102:1261" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1146:1246" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1270:1429" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1314:1414" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1438:1597" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1482:1582" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1606:1765" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1650:1750" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1774:1933" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1818:1918" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1942:2101" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="1986:2086" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="2110:2271" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="2154:2256" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="2280:2441" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="2324:2426" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="2450:2611" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="2494:2596" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="2620:2781" ph="&lt;div.../&gt;" />
+            <marker date="1536179283982" expanded="true" signature="2664:2766" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
